@@ -3,10 +3,10 @@
   Archive stuff on the client. __(WIP)__
 
   ```js
-    location.href = zip()
-      .add('a.txt', 'a')
-      .add('b.txt', 'b')
-      .datauri();
+location.href = zip()
+  .add('a.txt', 'a')
+  .add('b.txt', 'b')
+  .datauri();
   ```
 
 ## Installation
