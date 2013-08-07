@@ -1,4 +1,3 @@
-
 # zip
 
   Archive stuff on the client. __(WIP)__
@@ -18,16 +17,16 @@
 
 ## Todo
 
-  - [x] create simple zip files.
-  - [] navigate entries.
-  - [] remove / update entries.
-  - [] read zip files.
-  - [] use `DataView()` as a default.
-  - [] `archive("images.zip").list(fn)`
-  - [] mixin emitter.
-  - [] use `visionmedia/batch`. (compress / decompress progress events)
-  - [] comment on specific entries.
-  - [] tests.
+  - ✔ create simple zip files.
+  - ✗ navigate entries.
+  - ✗ remove / update entries.
+  - ✗ read zip files.
+  - ✗ use `DataView()` as a default.
+  - ✗ `archive("images.zip").list(fn)`
+  - ✗ mixin emitter.
+  - ✗ use `visionmedia/batch`. (compress / decompress progress events)
+  - ✗ comment on specific entries.
+  - ✗ tests.
 
 ## Papers
 
