@@ -1,0 +1,17 @@
+{
+  "name": "zip",
+  "repo": "yields/zip",
+  "description": "Archive stuff on the client.",
+  "version": "0.0.1",
+  "keywords": ["zip", "archive"],
+  "license": "MIT",
+  "main": "lib/archive.js",
+  "scripts": [
+    "lib/signatures.js",
+    "lib/archive.js",
+    "lib/entry.js",
+    "lib/crc32.js",
+    "lib/dos.js",
+    "lib/hex.js"
+  ]
+}

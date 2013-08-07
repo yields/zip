@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script src='../build/build.js'></script>
+  </head>
+  <body>
+    <script>
+      var archive = require('zip');
+
+      location.href = archive()
+        .add('one.txt', '1 = one')
+        .add('two.txt', '2 = two')
+        .add('three.txt', '3 == three')
+        .datauri();
+    </script>
+  </body>
+</html>
