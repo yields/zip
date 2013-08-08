@@ -8,11 +8,13 @@
     <script>
       var archive = require('zip');
 
-      location.href = archive()
+      archive = archive()
         .add('one.txt', '1 = one')
         .add('two.txt', '2 = two')
-        .add('three.txt', '3 == three')
-        .datauri();
+        .add('three.txt', '3 == three');
+
+      archive.remove('three.txt');
+      location.href = archive.datauri();
     </script>
   </body>
 </html>
