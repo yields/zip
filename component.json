@@ -10,8 +10,11 @@
     "lib/signatures.js",
     "lib/archive.js",
     "lib/entry.js",
-    "lib/crc32.js",
-    "lib/dos.js",
     "lib/hex.js"
-  ]
+  ],
+  "dependencies": {
+    "yields/dos-date": "*",
+    "yields/dos-time": "*",
+    "yields/crc32": "*"
+  }
 }
