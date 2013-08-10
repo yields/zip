@@ -6,15 +6,16 @@
   </head>
   <body>
     <script>
-      var archive = require('zip');
+      var archive = require('zip')();
 
-      archive = archive()
-        .add('one.txt', '1 = one')
-        .add('two.txt', '2 = two')
-        .add('three.txt', '3 == three');
+      archive
+        .add('text.txt', 'hai')
+        .add('path')
+        .add('text.txt', 'hai');
 
-      archive.remove('three.txt');
-      location.href = archive.datauri();
+      console.log(archive);
+      // archive.datauri();
+      // location.href = archive.datauri();
     </script>
   </body>
 </html>
